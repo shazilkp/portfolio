@@ -21,13 +21,7 @@ export default function PixelIntro() {
         <div className="bg-blue-900 h-0.5 flex-1"></div>
     </div>
 
-      <div className="text-yellow-400 space-x-2 text-sm">
-        <a href="#">about</a> /
-        <a href="#"> blogs</a> /
-        <a href="#"> photos</a> /
-        <a href="#"> jekyll-themes</a> /
-        <a href="#" className="text-orange-400"> now</a>
-      </div>
+     
     </div>
   );
 }
