@@ -5,6 +5,19 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: 'Atari Font';
+  src: url('/AtariFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.font-pixel {
+  font-family: 'Atari Font', monospace;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
